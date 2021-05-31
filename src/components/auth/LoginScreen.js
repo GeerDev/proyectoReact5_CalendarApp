@@ -12,13 +12,13 @@ export const LoginScreen = () => {
 
     
     const [ formLoginValues, handleLoginInputChange ] = useForm({
-        lEmail: 'fernando@gmail.com',
+        lEmail: 'gerfersie@gmail.com',
         lPassword: '123456'
     });
 
     const [ formRegisterValues, handleRegisterInputChange ] = useForm({
-        rName: 'Nando',
-        rEmail: 'nando@gmail.com',
+        rName: 'Keba',
+        rEmail: 'keba@gmail.com',
         rPassword1: '123456',
         rPassword2: '123456'
     });

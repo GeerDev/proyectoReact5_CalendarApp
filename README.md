@@ -23,6 +23,16 @@ Segunda parte (Integración con el Back-End (Calendar-app-back)):
 *Nota 2: Para la comprobación de la identidad en las rutas usamos el id del usuario
 *Nota 3: Cors tiene un problema con las peticiones httpS con "S" de Secured
 
+Tercera parte:
+- Hacemos persistentes nuestros cambios en el calendario utilizando nuestro Back-End (CRUD)
+- Convertirmos un "string" a objetos de "tipo Date"
+
+Despliegue:
+- No es necesario que el Back y el Front se encuentren en el mismo lugar (En este caso va a estar todo junto)
+- Crear Build en React: npm run build
+- Ponerlo en la carpeta "public" de Nodejs
+- Desplegarlo como si fuera Git en Heroku (Uno de los hostings gratuitos)
+
 ## Hora de testear
 Correr todos los tests:
 ### `npm run test`
